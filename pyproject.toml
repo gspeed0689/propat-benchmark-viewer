@@ -1,0 +1,15 @@
+[project]
+name = "geobench"
+version = "0.1.0"
+description = "ArcGIS ProPAT v16 & 17 FastAPI server, Streamlit ingest, and Streamlit display"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.8",
+    "jupyter>=1.1.1",
+    "plotly>=6.0.0",
+    "requests>=2.32.3",
+    "sqlalchemy>=2.0.38",
+    "streamlit>=1.42.1",
+    "uvicorn>=0.34.0",
+]
